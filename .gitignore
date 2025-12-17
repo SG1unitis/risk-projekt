@@ -1,0 +1,7 @@
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+git add .gitignore
+git commit -m "Add .gitignore"
+git push
