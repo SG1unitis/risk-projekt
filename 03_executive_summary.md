@@ -40,3 +40,27 @@
 
 
 
+\## Roadmap (delivery)
+
+\- Critical (0–90 days): A01, A02, A03, A04, A05, A09, A10
+
+\- Next (3–6 months): A06, A07, A08, A12
+
+\- Longer term (6–12 months): A11
+
+
+
+\## KPIs (to track)
+
+\- MFA coverage (%), legacy auth sign-ins (count)
+
+\- Patch compliance (% within SLA)
+
+\- Backup restore test success rate (%)
+
+\- Log coverage (% critical sources ingested) + MTTD trend
+
+\- Tabletop exercises completed (count)
+
+
+
