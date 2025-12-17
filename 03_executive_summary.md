@@ -62,5 +62,5 @@
 
 \- Tabletop exercises completed (count)
 
-
+\- Vendors assessed (%), vendor access reviews completed (count)
 
