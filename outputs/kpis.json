@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-18T17:44:25.731269+00:00",
+  "generated_at": "2025-12-18T21:18:04.433976+00:00",
   "counts": {
     "total_risks": 30
   },
@@ -83,6 +83,71 @@
       "treatment": "Reduce",
       "owner": "IT",
       "target_date": "2026-10-31",
+      "status": "Open"
+    },
+    {
+      "risk_id": "R11",
+      "title": "Weak incident response readiness",
+      "risk_category": "Incident Response",
+      "score": 16,
+      "level": "Critical",
+      "residual_score": 9,
+      "residual_level": "Medium",
+      "treatment": "Reduce",
+      "owner": "Security",
+      "target_date": "2026-05-31",
+      "status": "Open"
+    },
+    {
+      "risk_id": "R06",
+      "title": "Data leakage via cloud sharing",
+      "risk_category": "Data Protection / Sharing",
+      "score": 12,
+      "level": "High",
+      "residual_score": 9,
+      "residual_level": "Medium",
+      "treatment": "Reduce",
+      "owner": "IT",
+      "target_date": "2026-04-15",
+      "status": "Open"
+    },
+    {
+      "risk_id": "R07",
+      "title": "Unpatched endpoints exploited",
+      "risk_category": "Endpoint Security / Patching",
+      "score": 12,
+      "level": "High",
+      "residual_score": 9,
+      "residual_level": "Medium",
+      "treatment": "Reduce",
+      "owner": "IT",
+      "target_date": "2026-03-15",
+      "status": "Open"
+    },
+    {
+      "risk_id": "R18",
+      "title": "Shadow IT (unsanctioned SaaS) leads to data leakage",
+      "risk_category": "Governance",
+      "score": 12,
+      "level": "High",
+      "residual_score": 9,
+      "residual_level": "Medium",
+      "treatment": "Reduce",
+      "owner": "IT",
+      "target_date": "2026-08-31",
+      "status": "Open"
+    },
+    {
+      "risk_id": "R22",
+      "title": "Unknown assets due to lack of inventory",
+      "risk_category": "Governance",
+      "score": 12,
+      "level": "High",
+      "residual_score": 9,
+      "residual_level": "Medium",
+      "treatment": "Reduce",
+      "owner": "IT",
+      "target_date": "2026-07-31",
       "status": "Open"
     }
   ]
