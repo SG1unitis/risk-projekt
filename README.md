@@ -118,7 +118,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 ## 🙏 Acknowledgments
 
 - Risk scenarios based on real-world incidents and industry best practices
-- Methodology aligned with ISO 27005 and NIST Cybersecurity Framework
+- Methodology inspired by ISO 27005 and NIST CSF (pragmatic adaptation for a lightweight risk register)
 - Built with pragmatism and business impact in mind
 
 ## 📞 Contact
