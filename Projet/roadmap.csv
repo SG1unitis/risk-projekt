@@ -1,0 +1,13 @@
+action_id,action,linked_risks,owner,effort(S/M/L),cost(Low/Med/High),priority,target_date,dependencies,kpi
+A01,Enforce MFA for all + Conditional Access,"R01;R03;R13;R14",IT,M,Low,Critical,2026-03-31,"Identity readiness","% accounts with MFA; legacy auth blocked"
+A02,Disable legacy auth protocols,"R01;R14",IT,S,Low,High,2026-03-31,"A01","Legacy sign-ins = 0"
+A03,Email hardening + DMARC rollout,"R02;R15",IT,S,Low,High,2026-04-30,"A01","DMARC policy deployed; spoofing reduced"
+A04,Immutable/offline backups + monthly restore tests,"R04",IT,M,Med,Critical,2026-03-31,"","Restore test success rate; RPO/RTO measured"
+A05,Remote access hardening (VPN patching, MFA, restrictions),"R03;R20",IT,M,Med,Critical,2026-04-30,"A01","No exposed weak auth; VPN compliance"
+A06,Centralize logs + basic alerting (identity/email/VPN),"R10",IT,M,Med,Critical,2026-06-30,"","Top alerts implemented; MTTD trend"
+A07,Incident response plan + tabletop exercise,"R11",Security,M,Low,Critical,2026-05-31,"A06","Tabletop done; roles validated"
+A08,Privileged access hygiene (unique admin accounts + audit logs),"R05",IT,M,Low,Critical,2026-05-31,"A01;A06","% admins unique; admin actions logged"
+A09,Patch SLA + endpoint inventory + remove local admin,"R07;R22",IT,M,Med,High,2026-03-15,"","Patch compliance; local admin %"
+A10,Laptop baseline: BitLocker + MDM + remote wipe,"R08",IT,M,Med,High,2026-03-31,"A01","% devices encrypted; compliant devices only"
+A11,Network segmentation (users/servers) + restrict admin paths,"R25",IT,L,High,Critical,2026-10-31,"A09;A08","Lateral movement paths reduced"
+A12,Third-party risk: questionnaire + contracts + access minimization,"R09;R21;R18",Procurement,M,Low,High,2026-06-30,"","% vendors assessed; vendor access reviewed"
