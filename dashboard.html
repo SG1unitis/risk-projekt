@@ -461,7 +461,14 @@
             const grid = container.querySelector('.matrix-grid');
             
             // Create 5x5 matrix (reversed Y axis for proper display)
-            const matrix = Array(5).fill(null).map(() => Array(5).fill([]));
+             const matrix = [];
+for (let y = 0; y < 5; y++) {
+    matrix[y] = [];
+    for (let x = 0; x < 5; x++) {
+        matrix[y][x] = [];  // Nouveau tableau pour CHAQUE cellule
+    }
+}
+       
             
             risks.forEach(r => {
                 if (r.rL >= 1 && r.rL <= 5 && r.rI >= 1 && r.rI <= 5) {
